@@ -1,0 +1,71 @@
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    background-color: rgb(246, 222, 191);
+}
+.title{
+    text-align: center;
+    color: rgb(238, 100, 20);
+}
+.container {
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: none;
+}
+.button{
+    background-color: #efeeee;
+    color: rgb(10, 136, 214);
+    border-radius: 8px;
+    border: solid;
+    padding: 10px;
+    margin: 10px 30px 10px 30px;
+    font-weight: bold;
+}
+.button-set {
+    display: flex;
+    justify-content: center;
+}
+.displayText {
+    margin: 10px;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+}
+.score{
+    color: rgb(228, 110, 189);
+}
+.score-card{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 30%;
+}
+.start-button{
+    background-color: #ffffff;
+    color: rgb(17, 191, 49);
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+    width: fit-content;
+    border-style: none;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+.start{
+    display: flex;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class="title">คำถาม</h1>
+    </div>
+    <div class="container">
+      <div class="score-card">
+        <h2 class="score">คะแนน</h2>
+        <h3 id="score"></h3>
+      </div>
+      <div class="start">
+        <button id="startButton" class="start-button" onclick="start()">
+               <h2>เริ่มตอบคำถาม</h2> 
+        </button>        
+      </div>
+
+      <div class="card">
+        <h2>PYT ย่อมาจาก?</h2>
+        <div class="button-set">
+          <button id="Q1A1" class="button" onclick="submitAnswer(1,1)">
+            1. Panya Ta
+          </button>
+          <button id="Q1A2" class="button" onclick="submitAnswer(1,2)">
+            2. Panyota
+          </button>
+          <button id="Q1A3" class="button" onclick="submitAnswer(1,3)">
+            3. Panyatara
+          </button>
+          <button id="Q1A4" class="button" onclick="submitAnswer(1,4)">
+            4. Panyatan
+          </button>
+        </div>
+        <div id="displayTextQ1" class="displayText"></div>
+      </div>
+      <div class="card">
+        <h2>ATN ย่อมาจาก?</h2>
+        <div class="button-set">
+          <button id="Q2A1" class="button" onclick="submitAnswer(2,1)">
+            1. All Tanny
+          </button>
+          <button id="Q2A2" class="button" onclick="submitAnswer(2,2)">
+            2. All Training
+          </button>
+          <button id="Q2A3" class="button" onclick="submitAnswer(2,3)">
+            3. A Training
+          </button>
+          <button id="Q2A4" class="button" onclick="submitAnswer(2,4)">
+            4. A Trainy
+          </button>
+        </div>
+        <div id="displayTextQ2" class="displayText"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
